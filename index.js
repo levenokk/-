@@ -16,6 +16,7 @@ const createWindow = () => {
         height: 450,
         resizable: false, // будет ли окно изменять размеры
         backgroundColor: '#fff', // цвет фона окна
+        icon: __dirname+'/ico.ico'
 
 
     });
